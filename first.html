@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Charis+SIL&display=swap"
+        rel="stylesheet">
+
+    <title>Blog and Contact</title>
+    <style>
+        * {
+            background-color: antiquewhite;
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            margin-top: 9px;
+
+        }
+
+        #full-form {
+            font-family: 'Baloo Bhai 2', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #border {
+            border: 5px;
+            border-color: blueviolet;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        #button {
+            padding: 10px;
+            margin-top: 10px;
+            border: 10px;
+            color: brown;
+
+        }
+
+        #button-style {
+            padding: 10px;
+            border-radius: 9px;
+            background-color: cadetblue;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        #para {
+            font-size: 22px;
+        }
+
+        #foot {
+            margin-top: 100px;
+            background-color: rgb(0, 0, 0);
+            height: 100px;
+            border: 1px solid black;
+        }
+
+        #adr {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+            margin-bottom: 10px;
+        }
+
+        #service {
+            margin-left: 350px;
+            margin-bottom: 10px;
+        }
+
+        .bg-color {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center; color: rgba(87, 17, 32, 0.705);">W3 Villa Technologies Pvt. Ltd.</h1>
+    <ul id="para">
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum vero illo magnam voluptatem illum ut
+            impedit praesentium temporibus dolore amet, eos placeat totam quasi iusto vel deleniti. Eligendi, minus!
+        </li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dolore totam asperiores quisquam
+            libero corporis, expedita aliquid atque corrupti iste. Corrupti, facilis nobis. Perferendis at rerum culpa
+            nostrum commodi.
+        </li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sunt sequi, necessitatibus distinctio officiis
+            molestias delectus dolore laboriosam suscipit quos quas alias, voluptas minima dolor ullam. Ex recusandae
+            expedita beatae!
+        </li>
+    </ul>
+    <div id="button">
+        <a href="https://www.w3villa.com/blog" target="_blank"><input type="button" value="continue Reading"
+                id="button-style"></a>
+    </div>
+    <div>
+
+        <h3 style="text-align: center; margin: 50px;"> Here the Enter Your <span
+                style=" color: coral; text-transform: uppercase;">Details</span>--</h3>
+
+        <form action="">
+            <div id=" border">
+                <div class="full-form">
+                    <label style=" margin-left: 500px;" for="Name">ENTER YOUR FULL NAME : </label><br>
+                    <input style="border-radius: 7px; padding  : 4px ; margin-left: 500px; margin-top: 10px;"
+                        type="text" placeholder="  Enter your name">
+                </div>
+                <div class="full-form">
+                    <label style=" margin-left: 500px; margin-top: 20px;" for="Name">ENTER YOUR EMAIL ID : </label><br>
+                    <input style="border-radius: 7px; padding  : 4px ; margin-left: 500px; margin-top: 10px;"
+                        type="email" placeholder="  Enter your EMAIL ID ">
+                </div>
+                <div class="full-form">
+                    <label style=" margin-left: 500px; margin-top: 10px;" for="Name">ENTER YOUR PASSWORD : </label><br>
+                    <input style="border-radius: 7px; padding  : 4px ; margin-left: 500px; margin-top: 10px;"
+                        type="password" placeholder="  Enter your passwod">
+                </div>
+                <div class="full-form">
+
+                    <input
+                        style=" padding  : 10px ; margin-left: 500px; margin-top: 10px; cursor: pointer; border-radius: 9px;background-color: red; font-size: 20px;"
+                        type="submit" value="submit the form">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div>
+    </div>
+    <footer id="foot">
+        <div id="adr">
+            <p class="bg-color">Address :</br>
+                Noida (Head Office)</br>
+                3rd Floor, H-51,</br>
+                Sector 63,</br>
+                Noida, UP, India - 201301</p>
+            <div id="service">
+                <p class="bg-color">HOME</br>
+                    SERVICE</br>
+                    CONTACT US</br>
+                    ABOUT US</br>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
